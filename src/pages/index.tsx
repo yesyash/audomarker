@@ -1,7 +1,12 @@
+import { Header } from '@/components/header';
+
 export default function Home() {
-  return (
-    <>
-      <h2 className='p-6'>hello world</h2>
-    </>
-  )
+	return (
+		<>
+			<Header />
+			<div className=" h-screen bg-gray-200"></div>{' '}
+			<div className=" h-screen bg-gray-200"></div>
+			<div className=" h-screen bg-gray-200"></div>
+		</>
+	);
 }
